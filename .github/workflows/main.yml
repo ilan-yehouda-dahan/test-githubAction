@@ -1,0 +1,9 @@
+name: test de github action
+on: [push]
+
+jobs:
+    faire-un-hello:
+      runs-on: ubuntu-latest
+      steps:
+        - name: afficher hello
+          run: echo "Bienvenue sur ubuntu de github action"
